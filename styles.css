@@ -1,10 +1,15 @@
 body, html{
-  height:100%;
+  height:80%;
 }
 body{
   margin: 0px;
-  background-color:#444;
+  /* background-color:#444; */
+  background-image: url("https://i.pinimg.com/originals/e0/d1/a9/e0d1a9869e6cfd5a451067878f8f5440.gif");
   font-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover  ;
+  max-width: 900px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -21,7 +26,13 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
+  /* border:10px solid red; */
+  /* border-radius:10px; */
+  position: absolute;
+}
+#light{
+
+  margin: auto;
+  display: block;
+  /* width: 80%; */
 }
